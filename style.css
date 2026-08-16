@@ -145,10 +145,7 @@ a:focus-visible {
 
 .content-pane {
   min-width: 0;
-  background-color: #ffffff;
-  background-image: url("kumamoto-bg.png");
-  background-repeat: repeat;
-  background-size: 360px auto;
+  background: #ffffff;
 }
 
 .site-header,
