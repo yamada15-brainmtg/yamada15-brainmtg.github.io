@@ -305,6 +305,51 @@ section {
   background: #eeeeee;
 }
 
+.mascot {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+.registration-cta-row {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  margin: 12px 0 16px;
+}
+
+.registration-cta-row .registration-cta {
+  margin: 0;
+}
+
+.mascot-registration {
+  width: 88px;
+}
+
+.template-download-row {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.template-download-row .download-box {
+  flex: 1;
+}
+
+.mascot-template {
+  width: 104px;
+}
+
+.mascot-access {
+  width: 96px;
+  margin: 16px 0 0 auto;
+}
+
+.mascot-program {
+  width: 108px;
+  margin: 18px auto 0;
+}
+
 .registration-cta {
   margin: 12px 0 16px;
 }
