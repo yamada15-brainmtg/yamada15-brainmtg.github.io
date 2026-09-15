@@ -332,8 +332,9 @@ section {
   gap: 16px;
 }
 
-.template-download-row .download-box {
+.template-download-list {
   flex: 1;
+  margin: 6px 0;
 }
 
 .mascot-template {
@@ -355,7 +356,7 @@ section {
 }
 
 .registration-cta a,
-.template-download-link {
+.form-button {
   display: inline-block;
   min-width: 124px;
   padding: 7px 20px;
@@ -374,38 +375,33 @@ section {
 }
 
 .registration-cta a:visited,
-.template-download-link:visited {
+.form-button:link,
+.form-button:visited {
   color: #000000;
+  text-decoration: none;
 }
 
 .registration-cta a:hover,
 .registration-cta a:focus-visible,
-.template-download-link:hover,
-.template-download-link:focus-visible {
+.form-button:hover,
+.form-button:focus-visible {
   color: #000000;
   background: #e4e4e4;
 }
 
 .registration-cta a:active,
-.template-download-link:active {
+.form-button:active {
   border-style: inset;
   background: #c4c0b8;
   transform: none;
 }
 
-.download-box {
-  margin: 8px 0 14px;
-  padding: 0;
-  border: 0;
-  background: transparent;
-}
-
-.form-links {
-  margin-top: 7px;
-}
-
-.form-links li {
-  margin: 6px 0;
+.form-button-list {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 8px;
+  margin: 12px 0 16px;
 }
 
 .program-table-wrap {
