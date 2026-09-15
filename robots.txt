@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://yamada15-brainmtg.github.io/sitemap.xml
