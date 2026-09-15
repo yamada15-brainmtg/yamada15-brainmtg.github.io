@@ -354,7 +354,8 @@ section {
   margin: 12px 0 16px;
 }
 
-.registration-cta a {
+.registration-cta a,
+.template-download-link {
   display: inline-block;
   min-width: 124px;
   padding: 7px 20px;
@@ -372,17 +373,21 @@ section {
   text-decoration: none;
 }
 
-.registration-cta a:visited {
+.registration-cta a:visited,
+.template-download-link:visited {
   color: #000000;
 }
 
 .registration-cta a:hover,
-.registration-cta a:focus-visible {
+.registration-cta a:focus-visible,
+.template-download-link:hover,
+.template-download-link:focus-visible {
   color: #000000;
   background: #e4e4e4;
 }
 
-.registration-cta a:active {
+.registration-cta a:active,
+.template-download-link:active {
   border-style: inset;
   background: #c4c0b8;
   transform: none;
@@ -390,23 +395,9 @@ section {
 
 .download-box {
   margin: 8px 0 14px;
-  padding: 12px 14px;
-  border: 2px outset #bbbbbb;
-  background: #f7f7f7;
-}
-
-.download-box p {
-  margin-bottom: 0;
-}
-
-.status-badge {
-  display: inline-block;
-  margin-left: 8px;
-  padding: 1px 6px;
-  border: 1px solid #999999;
-  background: #eeeeee;
-  font-size: 11px;
-  font-weight: normal;
+  padding: 0;
+  border: 0;
+  background: transparent;
 }
 
 .form-links {
