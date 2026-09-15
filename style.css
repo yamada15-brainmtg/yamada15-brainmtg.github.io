@@ -593,6 +593,32 @@ section {
   .speaker-list {
     columns: 1;
   }
+
+  .registration-cta-row {
+    gap: 8px;
+  }
+
+  .mascot-registration {
+    width: 52px;
+  }
+
+  .template-download-row {
+    gap: 10px;
+  }
+
+  .mascot-template {
+    width: 66px;
+  }
+
+  .mascot-access {
+    width: 58px;
+    margin-top: 10px;
+  }
+
+  .mascot-program {
+    width: 70px;
+    margin-top: 12px;
+  }
 }
 
 @media (max-width: 460px) {
