@@ -351,6 +351,11 @@ section {
   margin: 18px auto 0;
 }
 
+.mascot-speakers {
+  width: 112px;
+  margin: 18px 0 0 auto;
+}
+
 .registration-cta {
   margin: 12px 0 16px;
 }
@@ -358,6 +363,7 @@ section {
 .registration-cta a,
 .form-button {
   display: inline-block;
+  max-width: 100%;
   min-width: 124px;
   padding: 7px 20px;
   border: 2px outset #e8e8e8;
@@ -606,9 +612,28 @@ section {
     width: 70px;
     margin-top: 12px;
   }
+
+  .mascot-speakers {
+    width: 72px;
+    margin-top: 12px;
+  }
 }
 
 @media (max-width: 460px) {
+  .template-download-row {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .template-download-list {
+    width: 100%;
+    margin: 6px 0 0;
+  }
+
+  .mascot-template {
+    margin-left: auto;
+  }
+
   body {
     font-size: 14px;
   }
