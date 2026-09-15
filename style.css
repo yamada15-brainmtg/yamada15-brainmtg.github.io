@@ -213,13 +213,6 @@ a:focus-visible {
   font-size: 17px;
 }
 
-.new-badge {
-  margin-right: 6px;
-  color: #ff0000;
-  font-family: "Times New Roman", serif;
-  font-weight: bold;
-}
-
 section {
   scroll-margin-top: 8px;
   margin: 0 0 28px;
@@ -235,10 +228,6 @@ section {
   color: #000000;
   font-size: 19px;
   line-height: 1.35;
-}
-
-.main-content h2::before {
-  content: "・";
 }
 
 .main-content h3 {
@@ -307,6 +296,177 @@ section {
   padding: 5px 8px;
   border: 1px dashed #aa6600;
   background: #ffffdd;
+}
+
+.payment-note {
+  margin: 6px 0 16px;
+  padding: 8px 10px;
+  color: #444444;
+  background: #eeeeee;
+}
+
+.registration-cta {
+  margin: 12px 0 16px;
+}
+
+.registration-cta a {
+  display: inline-block;
+  min-width: 124px;
+  padding: 7px 20px;
+  border: 2px outset #e8e8e8;
+  border-radius: 0;
+  color: #000000;
+  background: #d4d0c8;
+  box-shadow: none;
+  font-family: "MS PGothic", "ＭＳ Ｐゴシック", sans-serif;
+  font-size: 15px;
+  font-weight: bold;
+  letter-spacing: 0;
+  text-align: center;
+  text-shadow: none;
+  text-decoration: none;
+}
+
+.registration-cta a:visited {
+  color: #000000;
+}
+
+.registration-cta a:hover,
+.registration-cta a:focus-visible {
+  color: #000000;
+  background: #e4e4e4;
+}
+
+.registration-cta a:active {
+  border-style: inset;
+  background: #c4c0b8;
+  transform: none;
+}
+
+.download-box {
+  margin: 8px 0 14px;
+  padding: 12px 14px;
+  border: 2px outset #bbbbbb;
+  background: #f7f7f7;
+}
+
+.download-box p {
+  margin-bottom: 0;
+}
+
+.status-badge {
+  display: inline-block;
+  margin-left: 8px;
+  padding: 1px 6px;
+  border: 1px solid #999999;
+  background: #eeeeee;
+  font-size: 11px;
+  font-weight: normal;
+}
+
+.form-links {
+  margin-top: 7px;
+}
+
+.form-links li {
+  margin: 6px 0;
+}
+
+.program-table-wrap {
+  max-width: 650px;
+  margin: 0 auto 10px;
+  border: 0;
+  box-shadow: none;
+}
+
+.program-table {
+  width: 100%;
+  min-width: 0;
+  border-collapse: collapse;
+  background: #ffffff;
+  font-size: 13px;
+}
+
+.program-table th,
+.program-table td {
+  padding: 8px 10px;
+  border: 0;
+  vertical-align: middle;
+}
+
+.program-table thead th {
+  border-bottom: 2px solid #555555;
+  color: #ffffff;
+  background: #202020;
+  font-size: 12px;
+  font-weight: normal;
+  letter-spacing: 0.08em;
+  text-align: left;
+}
+
+.program-table thead th:nth-child(2),
+.program-table thead th:nth-child(3) {
+  width: 86px;
+}
+
+.program-table td:nth-child(2),
+.program-table td:nth-child(3) {
+  white-space: nowrap;
+  font-family: Arial, Helvetica, sans-serif;
+  font-variant-numeric: tabular-nums;
+}
+
+.program-table tbody tr:not(.program-day) td:first-child {
+  padding-left: 30px;
+}
+
+.program-day th {
+  padding: 11px 12px;
+  border-top: 2px solid #111111;
+  border-bottom: 0;
+  color: #111111;
+  background: #d4d0c8;
+  font-size: 14px;
+  text-align: left;
+}
+
+.program-day span {
+  display: inline-block;
+  margin-right: 9px;
+  padding-right: 9px;
+  border-right: 1px solid #777777;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 11px;
+  letter-spacing: 0.12em;
+}
+
+.program-session td:first-child {
+  font-weight: bold;
+}
+
+.program-break {
+  color: #666666;
+  background: #f5f5f5;
+  font-style: italic;
+}
+
+.program-social {
+  background: #e3e3e3;
+}
+
+.program-poster {
+  background: #eeeeee;
+  font-weight: normal;
+}
+
+.program-logistics {
+  color: #444444;
+  background: #ededed;
+}
+
+.program-time-check td:last-child {
+  text-decoration: underline dotted;
+  text-underline-offset: 3px;
 }
 
 .small {
@@ -421,4 +581,5 @@ section {
   .info-table td {
     border-top: 0;
   }
+
 }
