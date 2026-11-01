@@ -902,6 +902,20 @@ body {
   padding: 0 5px;
 }
 
+.latest-item-new {
+  display: block;
+  max-width: 100%;
+  color: #a60055;
+  font-weight: bold;
+  justify-self: stretch;
+  text-align: left;
+  overflow-wrap: anywhere;
+}
+
+.latest-item-new > span {
+  white-space: normal;
+}
+
 section {
   margin-bottom: 22px;
   padding: 12px 14px 14px;
